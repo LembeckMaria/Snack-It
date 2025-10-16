@@ -118,3 +118,5 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
         document.querySelectorAll('.form-box').forEach(box => box.classList.remove('active'));
         document.getElementById(formId).classList.add('active');
     }
+
+    
