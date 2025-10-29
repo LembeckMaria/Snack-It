@@ -83,140 +83,140 @@ img {
 /* Buttons */
 .btn {
     display: inline-block;
-    background-color: var(--primary-color);
-    color: var(--white);
-    padding: 0.8rem 1.5rem;
-    border-radius: 4px;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    transition: var(--transition);
-}
+        background-color: var(--primary-color);
+            color: var(--white);
+                padding: 0.8rem 1.5rem;
+                    border-radius: 4px;
+                        font-weight: 600;
+                            border: none;
+                                cursor: pointer;
+                                    transition: var(--transition);
+                                    }
 
-.btn:hover {
-    background-color: var(--secondary-color);
-    transform: translateY(-2px);
-}
+                                    .btn:hover {
+                                        background-color: var(--secondary-color);
+                                            transform: translateY(-2px);
+                                            }
 
-.btn-outline {
-    display: inline-block;
-    background-color: transparent;
-    color: var(--primary-color);
-    padding: 0.7rem 1.4rem;
-    border-radius: 4px;
-    font-weight: 600;
-    border: 2px solid var(--primary-color);
-    cursor: pointer;
-    transition: var(--transition);
-}
+                                            .btn-outline {
+                                                display: inline-block;
+                                                    background-color: transparent;
+                                                        color: var(--primary-color);
+                                                            padding: 0.7rem 1.4rem;
+                                                                border-radius: 4px;
+                                                                    font-weight: 600;
+                                                                        border: 2px solid var(--primary-color);
+                                                                            cursor: pointer;
+                                                                                transition: var(--transition);
+                                                                                }
 
-.btn-outline:hover {
-    background-color:var(--secondary-color);
-    color: var(--white);
-    border: 0px ;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
-}
+                                                                                .btn-outline:hover {
+                                                                                    background-color:var(--secondary-color);
+                                                                                        color: var(--white);
+                                                                                            border: 0px ;
+                                                                                                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+                                                                                                }
 
-.btn-text {
-    color: var(--primary-color);
-    font-weight: 600;
-    position: relative;
-    transition: var(--transition);
-}
+                                                                                                .btn-text {
+                                                                                                    color: var(--primary-color);
+                                                                                                        font-weight: 600;
+                                                                                                            position: relative;
+                                                                                                                transition: var(--transition);
+                                                                                                                }
 
-.btn-text::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--primary-color);
-    transition: var(--transition);
-}
+                                                                                                                .btn-text::after {
+                                                                                                                    content: '';
+                                                                                                                        position: absolute;
+                                                                                                                            bottom: -2px;
+                                                                                                                                left: 0;
+                                                                                                                                    width: 0;
+                                                                                                                                        height: 2px;
+                                                                                                                                            background-color: var(--primary-color);
+                                                                                                                                                transition: var(--transition);
+                                                                                                                                                }
 
-.btn-text:hover::after {
-    width: 100%;
-}
+                                                                                                                                                .btn-text:hover::after {
+                                                                                                                                                    width: 100%;
+                                                                                                                                                    }
 
-/* Header */
-header {
-    background-color: var(--white);
-    box-shadow: var(--shadow);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
+                                                                                                                                                    /* Header */
+                                                                                                                                                    header {
+                                                                                                                                                        background-color: var(--white);
+                                                                                                                                                            box-shadow: var(--shadow);
+                                                                                                                                                                position: sticky;
+                                                                                                                                                                    top: 0;
+                                                                                                                                                                        z-index: 1000;
+                                                                                                                                                                        }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 15px;
-}
+                                                                                                                                                                        header .container {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                                justify-content: space-between;
+                                                                                                                                                                                    align-items: center;
+                                                                                                                                                                                        padding: 1rem 15px;
+                                                                                                                                                                                        }
 
-.logo h1 {
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    margin: 0;
-}
+                                                                                                                                                                                        .logo h1 {
+                                                                                                                                                                                            font-size: 1.8rem;
+                                                                                                                                                                                                color: var(--primary-color);
+                                                                                                                                                                                                    margin: 0;
+                                                                                                                                                                                                    }
 
-.logo {
-    margin: 0%;
-    padding: 0;
-}
+                                                                                                                                                                                                    .logo {
+                                                                                                                                                                                                        margin: 0%;
+                                                                                                                                                                                                            padding: 0;
+                                                                                                                                                                                                            }
 
-.logo img {
-    width: 110px;
-    padding: 0;
-    margin: 0;
-}
+                                                                                                                                                                                                            .logo img {
+                                                                                                                                                                                                                width: 110px;
+                                                                                                                                                                                                                    padding: 0;
+                                                                                                                                                                                                                        margin: 0;
+                                                                                                                                                                                                                        }
 
-.menu {
-    display: flex;
-}
+                                                                                                                                                                                                                        .menu {
+                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                            }
 
-.menu li {
-    margin-left: 1.5rem;
-}
+                                                                                                                                                                                                                            .menu li {
+                                                                                                                                                                                                                                margin-left: 1.5rem;
+                                                                                                                                                                                                                                }
 
-.menu a {
-    font-weight: 500;
-    padding: 0.5rem 0;
-    position: relative;
-}
+                                                                                                                                                                                                                                .menu a {
+                                                                                                                                                                                                                                    font-weight: 500;
+                                                                                                                                                                                                                                        padding: 0.5rem 0;
+                                                                                                                                                                                                                                            position: relative;
+                                                                                                                                                                                                                                            }
 
-.menu a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--primary-color);
-    transition: var(--transition);
-}
+                                                                                                                                                                                                                                            .menu a::after {
+                                                                                                                                                                                                                                                content: '';
+                                                                                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                                                                                        bottom: 0;
+                                                                                                                                                                                                                                                            left: 0;
+                                                                                                                                                                                                                                                                width: 0;
+                                                                                                                                                                                                                                                                    height: 2px;
+                                                                                                                                                                                                                                                                        background-color: var(--primary-color);
+                                                                                                                                                                                                                                                                            transition: var(--transition);
+                                                                                                                                                                                                                                                                            }
 
-.menu a:hover::after,
-.menu a.active::after {
-    width: 100%;
-}
+                                                                                                                                                                                                                                                                            .menu a:hover::after,
+                                                                                                                                                                                                                                                                            .menu a.active::after {
+                                                                                                                                                                                                                                                                                width: 100%;
+                                                                                                                                                                                                                                                                                }
 
-.mobile-menu-btn {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
+                                                                                                                                                                                                                                                                                .mobile-menu-btn {
+                                                                                                                                                                                                                                                                                    display: none;
+                                                                                                                                                                                                                                                                                        background: none;
+                                                                                                                                                                                                                                                                                            border: none;
+                                                                                                                                                                                                                                                                                                cursor: pointer;
+                                                                                                                                                                                                                                                                                                }
 
-.mobile-menu-btn span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-color);
-    margin: 5px 0;
-    transition: var(--transition);
-}
+                                                                                                                                                                                                                                                                                                .mobile-menu-btn span {
+                                                                                                                                                                                                                                                                                                    display: block;
+                                                                                                                                                                                                                                                                                                        width: 25px;
+                                                                                                                                                                                                                                                                                                            height: 3px;
+                                                                                                                                                                                                                                                                                                                background-color: var(--text-color);
+                                                                                                                                                                                                                                                                                                                    margin: 5px 0;
+                                                                                                                                                                                                                                                                                                                        transition: var(--transition);
+                                                                                                                                                                                                                                                                                                                        }
 
 /* Hero Section */
 .hero {
@@ -264,11 +264,14 @@ header .container {
     transition: var(--transition);
     text-align: center;
     padding-bottom: 1.5rem;
+    cursor: pointer;
+    height: 260px;
 }
 
 .category-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    height: 100%;
 }
 
 .category-img {
@@ -866,5 +869,8 @@ button:hover {
         padding: 3rem 0;
     }
 }
-
+.arrow {
+    color: #C75C71;
+    font-size: 30px;
+}
 
