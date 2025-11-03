@@ -852,6 +852,13 @@ button:hover {
   overflow: hidden;
 }
 
+.developer-photo img {
+    /* Garante que a imagem preencha o tamanho máximo definido acima */
+    width: 500px; 
+    height: auto; 
+    border-radius: 30px;
+}
+
 @media (max-width: 480px) {
     .section-title {
         font-size: 1.8rem;
