@@ -852,11 +852,72 @@ button:hover {
   overflow: hidden;
 }
 
+
+/* 1. SEÇÃO PRINCIPAL: Alinha o Título, Introdução e o Grid verticalmente (em coluna) */
+.developers-section {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;   
+    flex-direction: column;  /* Centraliza o conteúdo horizontalmente (se não houver largura fixa) */  /* Organiza os itens da seção verticalmente */
+}
+
+
+
+.developers-grid {
+    display: flex; 
+    flex-wrap: wrap; 
+    /* ALTERAÇÃO CHAVE: Distribui os itens uniformemente */
+    justify-content: space-between; 
+    gap: 30px; 
+    width: 100%;
+    /* Adicione padding lateral para não colar nas bordas */
+    padding: 0 10px; 
+    max-width: 1200px; /* Use o max-width que for melhor para seu layout */
+    margin: 0 auto; /* Centraliza o grid */
+}
+
+.mabi-isa {
+    position: absolute;
+    margin-left: 250px;
+}
+
+.duda-karina {
+    margin-left: 350px;
+}
+
+/* 3. CARD INDIVIDUAL */
+.developer-card {
+    /* Largura que você definiu */
+    max-width: 300px; 
+    /* Centraliza o texto */
+    text-align: center; 
+   
+}
+
+/* 4. IMAGEM */
 .developer-photo img {
-    /* Garante que a imagem preencha o tamanho máximo definido acima */
-    width: 500px; 
-    height: auto; 
+    /* Garante que a imagem preencha a largura do card */
+    width: 100%; 
+    /* Define uma altura consistente */
+    height: 250px; 
+    /* Preenche o espaço mantendo a proporção (crucial!) */
+    object-fit: cover; 
     border-radius: 30px;
+    display: block;
+    box-shadow: 1px 1px 40px  #c75c7191;
+    transition: 0.3s;
+    
+}
+
+.developer-photo img:hover {
+    transform: scale(1.03);
+     box-shadow: 1px 1px 45px  #c75c71a1;     
+}
+
+
+/* 5. INFORMAÇÕES DO DESENVOLVEDOR */
+.developer-info {
+    padding: 10px 0;
 }
 
 @media (max-width: 480px) {
