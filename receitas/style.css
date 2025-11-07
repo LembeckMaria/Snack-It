@@ -266,6 +266,67 @@ header .container {
     margin-top: 5px;
 }
 
+.image-seren {
+    position: absolute;
+    background-image: url('imgs/Serendipity-Frozen-Hot-Chocolate.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-seren.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+
+.image-beterraba {
+    position: absolute;
+    background-image: url('imgs/hamburguer-beterraba.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-beterraba.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+.image-manteiga {
+    position: absolute;
+    background-image: url('imgs/manteiga-caju.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-manteiga.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
 .image {
     position: absolute;
     background-image: url('imgs/notherwaffle.webp');
