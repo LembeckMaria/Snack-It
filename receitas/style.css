@@ -327,6 +327,26 @@ header .container {
     margin-top: 5px;
 }
 
+.image-bibimbap {
+    position: absolute;
+    background-image: url('imgs/manteiga-caju.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-bibimbap.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
 .image {
     position: absolute;
     background-image: url('imgs/notherwaffle.webp');
