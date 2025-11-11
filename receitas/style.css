@@ -347,6 +347,69 @@ header .container {
     margin-top: 5px;
 }
 
+.image-omelete {
+    position: absolute;
+    background-image: url('imgs/omelete.jfif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-omelete.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+
+.image-stroopwafel {
+    position: absolute;
+    background-image: url('imgs/stroopwafel.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-stroopwafel.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+
+.image-peito-de-frango-fitness {
+    position: absolute;
+    background-image: url('imgs/peito-de-frango-arroz.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-peito-de-frango-fitness.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+
 .image-strogonoff {
     position: absolute;
     background-image: url('imgs/strogonoff-fitness.webp');
