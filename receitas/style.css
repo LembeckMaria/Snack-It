@@ -409,6 +409,166 @@ header .container {
     margin-top: 5px;
 }
 
+.image-quibe-abobora {
+    position: absolute;
+    background-image: url('imgs/quibe-de-abobora.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-quibe-abobora.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+.image-quibe-abobora {
+    position: absolute;
+    background-image: url('imgs/quibe-de-abobora.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-quibe-abobora.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+.image-pao-de-queijo-fit {
+    position: absolute;
+    background-image: url('imgs/pao-de-queijo-fit.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-pao-de-queijo-fit.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+
+.image-espaguette-abo {
+    position: absolute;
+    background-image: url('imgs/espaguette-abobrinha.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-espaguette-abo.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+.image-ceviche-tilapia {
+    position: absolute;
+    background-image: url('imgs/ceviche-tilapia.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-ceviche-tilapia.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+.image-ham-frang-abo {
+    position: absolute;
+    background-image: url('imgs/hamburguer-frango-abo.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-ham-frang-abo.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+.image-tapioca-fit {
+    position: absolute;
+    background-image: url('imgs/tapioca-fit.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-tapioca-fit.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
+.image-torta-frang-bttdoce {
+    position: absolute;
+    background-image: url('imgs/torta-frang-bttdoce.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-torta-frang-bttdoce.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
 
 .image-peito-de-frango-fitness {
     position: absolute;

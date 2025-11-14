@@ -100,6 +100,10 @@
     color: var(--primary-color);
 }
 
+[data-theme="dark"] .footer-links {
+    color: var(--text-color);
+}
+
 [data-theme="dark"] .page-header {
     background-color: var(--primary-color);
 }
@@ -236,10 +240,6 @@
     color: var(--dark-gray);
 }
 
-[data-theme="dark"] .developer-card {
-    background-color: var(--medium-gray);
-    border: 1px solid #333;
-}
 
 [data-theme="dark"] .developer-info h3 {
     color: var(--text-color);
