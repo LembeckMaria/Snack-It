@@ -388,6 +388,27 @@ header .container {
     margin-top: 5px;
 }
 
+ 
+.image-strogonoff-vegano {
+    position: absolute;
+    background-image: url('imgs/strogonoff-vegano.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    width: 700px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.295);
+    transition: all ;
+}
+ 
+.image-strogonoff-vegano.fixo{
+    position: fixed;
+    top: 200px;    
+    margin-top: 5px;
+}
+
 
 .image-peito-de-frango-fitness {
     position: absolute;
