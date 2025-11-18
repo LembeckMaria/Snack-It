@@ -77,6 +77,16 @@
     background-color: var(--primary-color);
 }
 
+[data-theme="dark"] .espec i {
+    color: var(--white);
+}
+
+
+[data-theme="dark"] .espec li {
+    color: var(--white);
+}
+
+
 [data-theme="dark"] .newsletter h2,
 [data-theme="dark"] .newsletter p {
     color: var(--white);
@@ -112,11 +122,6 @@
     background-color: var(--white);
 }
 
-[data-theme="dark"] .ingredients,
-[data-theme="dark"] .instructions {
-    background-color: var(--medium-gray);
-    border: 1px solid #333;
-}
 
 [data-theme="dark"] .ingredients h3,
 [data-theme="dark"] .instructions h3 {
